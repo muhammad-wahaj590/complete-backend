@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>profile page</title>
+</head>
+<body>
+    <h1>profile page</h1>
+    <h3>welcome <%= data.name %></h3>
+    <h3>age <%= data.age %></h3>
+    <!-- how to make loop in ejs  -->
+    <ul>
+        <% data.skills.forEach((item) => {%>
+            <li><%= item %></li>
+         <% })%>   
+    </ul>
+</body>
+</html>
+
+<!-- yeh hamne kaam 15 file k liye kia hai dynamic data banaya hai is me hamne  ejs ka use kar k  -->
+<!-- <%= data.name %> yeh ejs k liye use karty hain  jab dynamic data ata hai  -->
+<!-- <%= data.name %> yeh jab hota hai jab dynamic data se vallue print karwani ho  -->
+<!-- <%  %> yeh jab hota hai jab dynamic data ko use karna ho lkn print nhi karwana ho  -->

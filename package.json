@@ -1,0 +1,28 @@
+{
+  "name": "tut",
+  "version": "1.0.0",
+  "description": "a nodejs tutorial",
+  "main": "06-create-simple-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "code",
+    "step",
+    "by",
+    "step"
+  ],
+  "author": "wahaj",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "colors": "^1.4.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9",
+    "simple-node-logger": "^21.8.12"
+  }
+}
